@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leading Hazardous Space Robotics | Unibose</title>
+  <meta name="description" content="Unibose’s team of chemical, mechanical, and robotic engineers uses 45+ years of combined experience to design intrinsically safe ATEX Zone-0 robots that eliminate human entry in hazardous tanks." />
+  <link rel="canonical" href="https://www.unibose.com/" />
+  
+  <!-- Modern Typography: Google Fonts (Outfit & Inter as high-fidelity Proxima Nova alternatives) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ================= TOP FIXED NAVIGATION HEADER ================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      <a href="#" class="brand-logo" aria-label="Unibose Home">
+        <svg class="unibose-svg-logo" viewBox="0 0 160 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <text x="0" y="28" font-family="'Outfit', sans-serif" font-weight="800" font-size="28" fill="#FFFFFF" letter-spacing="1.5">UNIBOSE</text>
+          <circle cx="145" cy="14" r="4.5" fill="#7CAD3E" />
+        </svg>
+      </a>
+
+      <div class="header-right-actions">
+        <a href="#contact" class="btn-get-in-touch" id="btnGetInTouch">
+          <span class="btn-touch-bg"></span>
+          <span class="btn-touch-text">GET IN TOUCH</span>
+        </a>
+
+        <!-- 9-Dot Matrix Menu Trigger -->
+        <button class="menu-grid-trigger" id="menuTrigger" aria-label="Open Navigation Menu">
+          <span class="grid-hover-effect"></span>
+          <svg class="nine-dots-icon" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="5" height="5" rx="1" fill="white"></rect>
+            <rect y="9" width="5" height="5" rx="1" fill="white"></rect>
+            <rect y="18" width="5" height="5" rx="1" fill="white"></rect>
+            <rect x="10" width="5" height="5" rx="1" fill="white"></rect>
+            <rect x="10" y="9" width="5" height="5" rx="1" fill="white"></rect>
+            <rect x="10" y="18" width="5" height="5" rx="1" fill="white"></rect>
+            <rect x="20" width="5" height="5" rx="1" fill="white"></rect>
+            <rect x="20" y="9" width="5" height="5" rx="1" fill="white"></rect>
+            <rect x="20" y="18" width="5" height="5" rx="1" fill="white"></rect>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= OFF-CANVAS SLIDE-IN NAVIGATION DRAWER ================= -->
+  <div class="nav-drawer-overlay" id="drawerOverlay"></div>
+  <aside class="nav-drawer" id="navDrawer">
+    <div class="drawer-header">
+      <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="Close Navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="white" stroke-width="2" fill="none">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <div class="drawer-content">
+      <nav class="drawer-nav">
+        <div class="nav-item">
+          <a href="#technology" class="nav-link">Our Story</a>
+        </div>
+
+        <div class="nav-item has-dropdown">
+          <div class="nav-link-dropdown-toggle" id="productsMenuToggle">
+            <span>Our Products</span>
+            <span class="dropdown-icon">+</span>
+          </div>
+
+          <div class="drawer-submenu" id="productsSubmenu">
+            <div class="sub-category">
+              <h4>Sludge Extraction</h4>
+              <ul>
+                <li><a href="#geometries">Flat Bottom Tank (Crude, Lagoons, Chemical)</a></li>
+                <li><a href="#geometries">Horizontal Tanks (Solvents, Acid Wagons)</a></li>
+                <li><a href="#geometries">Vertical Tanks / Vessels (Catalyst Reactors, Silos)</a></li>
+              </ul>
+            </div>
+            <div class="sub-category">
+              <h4>Tank Maintenance</h4>
+              <ul>
+                <li><a href="#innovations">Roof & Shell Cleaning</a></li>
+                <li><a href="#innovations">Surface Preparation & Painting</a></li>
+              </ul>
+            </div>
+            <div class="sub-category">
+              <h4>Tank Inspection</h4>
+              <ul>
+                <li><a href="#innovations">Bottom Plate & Ultrasonic Inspection</a></li>
+                <li><a href="#innovations">ATEX Zone-0 Vision Systems</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-item">
+          <a href="#raas" class="nav-link">RaaS (Robotics-as-a-Service)</a>
+        </div>
+
+        <div class="nav-item">
+          <a href="#faq" class="nav-link">FAQ</a>
+        </div>
+
+        <div class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </nav>
+
+      <div class="drawer-footer-meta">
+        <div class="meta-block">
+          <span class="meta-label">Office</span>
+          <p>No.33, SIDCO Industrial Estate, CMDA Phase – 2, Maraimalai Nagar, Chengalpattu, Tamil Nadu 603209, India</p>
+        </div>
+        <div class="meta-block">
+          <span class="meta-label">Contact</span>
+          <p><a href="tel:+919819741402">+91 98197 41402</a> / <a href="tel:+919677099223">+91 96770 99223</a></p>
+          <p><a href="mailto:contact@unibose.com">contact@unibose.com</a></p>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ================= HERO INTRO SECTION ================= -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-wrapper">
+      <img src="assets/banner.webp" alt="Unibose ATEX Zone-0 Robot Operating in Hazardous Space" class="hero-bg-img" />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content-container">
+      <!-- Video Play CTA Trigger -->
+      <div class="hero-action-trigger" id="videoTrigger" role="button" tabindex="0">
+        <div class="action-btn-ripple">
+          <svg class="play-svg" viewBox="0 0 78 78">
+            <circle class="ripple-outer" cx="39" cy="39" r="39"></circle>
+            <circle class="ripple-inner" cx="39" cy="39" r="32"></circle>
+            <circle class="play-circle" cx="39" cy="39" r="24"></circle>
+            <path class="play-triangle" d="M34.8,31.3c.4,0,.8.1,1.1.3,2.9,2,6.4,3.6,9.2,5.6,1.3,1,1.7,2.5.2,3.5-3,1.7-5.9,3.8-8.9,5.5-.4.2-.9.6-1.4.6-1,0-1.8-.7-1.9-1.7v-12.2c.2-.8.9-1.5,1.7-1.6h0Z"></path>
+          </svg>
+        </div>
+        <span class="action-btn-label">See our robot in action</span>
+      </div>
+
+      <!-- Main Heading -->
+      <h1 class="hero-main-title">
+        Leading Hazardous Space <br class="desktop-br" />
+        Robotics – from India to the World
+      </h1>
+
+      <!-- Rotating Cycling Badge -->
+      <div class="hero-ticker-wrapper">
+        <div class="ticker-pill" id="heroTickerPill">
+          <span class="ticker-text active">Human-First</span>
+          <span class="ticker-text">Proven Performance</span>
+          <span class="ticker-text">Protected by 7 patents</span>
+          <span class="ticker-text">ATEX Zone-0 Certified</span>
+          <span class="ticker-text">40% Down Time Reduction</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TRUSTED BY MARQUEE ================= -->
+  <section class="trusted-by-section">
+    <div class="section-container">
+      <h2 class="section-sub-title">Trusted By</h2>
+      <div class="logos-marquee">
+        <div class="marquee-track">
+          <div class="partner-logo-item">
+            <img src="assets/indian-oil.svg" alt="Indian Oil Corporation Limited" />
+          </div>
+          <div class="partner-logo-item">
+            <img src="assets/cpcl.svg" alt="Chennai Petroleum Corporation Limited" />
+          </div>
+          <div class="partner-logo-item text-partner">
+            <span class="partner-text-badge">POLY-TECH SAUDI ARABIA</span>
+          </div>
+          <div class="partner-logo-item">
+            <img src="assets/indian-oil.svg" alt="IOCL Terminals" />
+          </div>
+          <div class="partner-logo-item">
+            <img src="assets/cpcl.svg" alt="CPCL Manali Refinery" />
+          </div>
+          <!-- Repeat for infinite loop -->
+          <div class="partner-logo-item">
+            <img src="assets/indian-oil.svg" alt="Indian Oil" />
+          </div>
+          <div class="partner-logo-item">
+            <img src="assets/cpcl.svg" alt="CPCL" />
+          </div>
+          <div class="partner-logo-item text-partner">
+            <span class="partner-text-badge">POLY-TECH SAUDI ARABIA</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= UNIBOSE TECHNOLOGY SECTION ================= -->
+  <section class="technology-section" id="technology">
+    <div class="tech-grid-container">
+      <div class="tech-image-col">
+        <div class="tech-img-box">
+          <img src="assets/technology.png" alt="Unibose Hazardous Space Robotic Engineering" class="tech-img" />
+        </div>
+      </div>
+
+      <div class="tech-content-col">
+        <div class="tech-card">
+          <div class="tech-card-body">
+            <h2 class="tech-title">Unibose Technology</h2>
+            <div class="tech-descriptions">
+              <p>Unibose’s team of chemical, mechanical, and robotic engineers uses 45+ years of combined experience to design intrinsically safe ATEX Zone-0 robots that eliminate human entry in hazardous tanks. Built for high-viscosity sludge, complex geometries, and strict compliance, our solutions ensure Zero Life Loss, cut downtime by 40%, and safeguard the company’s reputation.</p>
+              <p>We offer not just a robot, but a technically sound, regulation-aligned solution engineered by people who understand these tanks, these substances, and the operational risks better than anyone.</p>
+            </div>
+          </div>
+
+          <div class="tech-pills-row">
+            <span class="tech-pill">45+ years of combined experience</span>
+            <span class="tech-pill">Zero Life Loss</span>
+            <span class="tech-pill">cut downtime by 40%</span>
+            <span class="tech-pill">ATEX Zone-0 robots</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SPLIT SHOWCASE: N-MER vs. RaaS ================= -->
+  <section class="split-showcase-section" id="raas">
+    <div class="split-col split-left">
+      <div class="split-bg-box">
+        <img src="assets/mushaq-bg.png" alt="Arham Oil MUSHAQ 2.0 Non-Man Entry Tank Robot" class="split-img" />
+        <div class="split-shade"></div>
+      </div>
+      <div class="split-overlay-content">
+        <div class="split-text-group">
+          <h2 class="split-heading">N-MER</h2>
+          <p class="split-subtag">(NO MAN ENTRY ROBOT)</p>
+          <p class="split-desc">Asia’s 1st Robot to achieve EU ATEX Zone-0 (IIC) Certification – the Global Benchmark for Safe Industrial Tank Cleaning in Confined, Hazardous Spaces</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="split-col split-right">
+      <div class="split-bg-box">
+        <img src="assets/robo-verse-bg.png" alt="Arham Oil Robo-Verse Turnkey Refinery Services" class="split-img" />
+        <div class="split-shade"></div>
+      </div>
+      <div class="split-overlay-content">
+        <div class="split-text-group">
+          <h2 class="split-heading">RaaS</h2>
+          <p class="split-subtag">(Robotics-as-a-Service)</p>
+          <p class="split-desc">An integrated OEM (Original Equipment Manufacturer) + RaaS model that gives industries ATEX Zone-0 robotics without capital barriers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMPLEX GEOMETRIES (MODULAR PLATFORM) ================= -->
+  <section class="geometries-section" id="geometries">
+    <div class="section-container">
+      <div class="geo-banner-wrap">
+        <div class="geo-header-content">
+          <div class="geo-award-badge">
+            <div class="award-laurel-disc">
+              <svg class="award-wreath-icon" viewBox="0 0 38 38" fill="none">
+                <circle cx="19" cy="19" r="16.5" stroke="currentColor" stroke-width="2" stroke-dasharray="3 1.5" />
+                <text x="19" y="23" text-anchor="middle" font-size="13" font-weight="800" fill="currentColor" font-family="Outfit, sans-serif">1ˢᵗ</text>
+              </svg>
+            </div>
+            <span class="geo-award-text">ASIA'S 1<sup>ST</sup> ATEX ZONE-0 CERTIFIED ROBOT</span>
+          </div>
+
+          <span class="geo-badge">PROVEN ACROSS 50+ PROJECTS • ATEX ZONE-0 ROBOTICS</span>
+
+          <h2 class="geo-main-title">
+            Engineered for Every <span class="geo-highlight-green">Hazardous</span> Tank & Basin Geometry
+          </h2>
+
+          <h3 class="geo-sub-title">
+            Robotic Cleaning & Mechanized Desludging for Storage Tanks, Lagoons, Pits & Vessels
+          </h3>
+        </div>
+      </div>
+
+      <!-- 3 Geometry Interactive Capsules -->
+      <div class="geo-capsules-grid">
+        <!-- Capsule 1: Flat Bottom -->
+        <div class="geo-capsule-item">
+          <div class="geo-capsule-card">
+            <div class="geo-capsule-icon-wrap">
+              <img src="assets/flat-bottom.svg" alt="Flat Bottom Storage Tank" class="geo-capsule-svg" />
+            </div>
+            <h4 class="geo-capsule-title">Flat Bottom<br />Storage Tank</h4>
+            <div class="geo-capsule-arrow-btn">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+            </div>
+          </div>
+          <div class="geo-capsule-bubbles">
+            <div class="geo-bubble" style="top: -4%; right: 28%; transition-delay: 0ms;"><span class="geo-bubble-text">Crude<br />Tanks</span></div>
+            <div class="geo-bubble" style="top: 3%; right: 2%; transition-delay: 45ms;"><span class="geo-bubble-text">Cooling Tower<br />Basins</span></div>
+            <div class="geo-bubble" style="top: 18%; right: -15%; transition-delay: 90ms;"><span class="geo-bubble-text">Slop /<br />Distillates</span></div>
+            <div class="geo-bubble" style="top: 37%; right: -18%; transition-delay: 135ms;"><span class="geo-bubble-text">Waste Lagoon<br />Pits</span></div>
+            <div class="geo-bubble" style="top: 56%; right: -14%; transition-delay: 180ms;"><span class="geo-bubble-text">Chemical<br />Tanks</span></div>
+            <div class="geo-bubble" style="top: 74%; right: -6%; transition-delay: 225ms;"><span class="geo-bubble-text">White Oil<br />Tanks</span></div>
+          </div>
+        </div>
+
+        <!-- Capsule 2: Horizontal -->
+        <div class="geo-capsule-item is-active">
+          <div class="geo-capsule-card">
+            <div class="geo-capsule-icon-wrap">
+              <img src="assets/horizontal-tank.svg" alt="Horizontal Storage Tank" class="geo-capsule-svg" />
+            </div>
+            <h4 class="geo-capsule-title">Horizontal<br />Storage Tank</h4>
+            <div class="geo-capsule-arrow-btn">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+            </div>
+          </div>
+          <div class="geo-capsule-bubbles">
+            <div class="geo-bubble" style="top: -5%; right: 28%; transition-delay: 0ms;"><span class="geo-bubble-text">Chemicals and<br />Solvents</span></div>
+            <div class="geo-bubble" style="top: 3%; right: 2%; transition-delay: 45ms;"><span class="geo-bubble-text">Acid<br />Wagons</span></div>
+            <div class="geo-bubble" style="top: 18%; right: -15%; transition-delay: 90ms;"><span class="geo-bubble-text">Petroleum<br />Products</span></div>
+            <div class="geo-bubble" style="top: 37%; right: -18%; transition-delay: 135ms;"><span class="geo-bubble-text">Underground<br />Vessels</span></div>
+            <div class="geo-bubble" style="top: 56%; right: -14%; transition-delay: 180ms;"><span class="geo-bubble-text">Bullet<br />Tanks</span></div>
+          </div>
+        </div>
+
+        <!-- Capsule 3: Vertical -->
+        <div class="geo-capsule-item">
+          <div class="geo-capsule-card">
+            <div class="geo-capsule-icon-wrap">
+              <img src="assets/vertical-tank.svg" alt="Vertical Tank/Vessels" class="geo-capsule-svg" />
+            </div>
+            <h4 class="geo-capsule-title">Vertical<br />Tank/Vessels</h4>
+            <div class="geo-capsule-arrow-btn">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+            </div>
+          </div>
+          <div class="geo-capsule-bubbles">
+            <div class="geo-bubble" style="top: -4%; right: 28%; transition-delay: 0ms;"><span class="geo-bubble-text">Columns</span></div>
+            <div class="geo-bubble" style="top: 3%; right: 2%; transition-delay: 45ms;"><span class="geo-bubble-text">Catalyst<br />Reactors</span></div>
+            <div class="geo-bubble" style="top: 18%; right: -15%; transition-delay: 90ms;"><span class="geo-bubble-text">Flash<br />Vessels</span></div>
+            <div class="geo-bubble" style="top: 37%; right: -18%; transition-delay: 135ms;"><span class="geo-bubble-text">Silos</span></div>
+            <div class="geo-bubble" style="top: 56%; right: -14%; transition-delay: 180ms;"><span class="geo-bubble-text">Horton<br />Spheres</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ATEX CERTIFICATIONS SECTION (IMAGE 2) ================= -->
+  <section class="atex-cert-section" id="atex-certifications">
+    <div class="atex-cert-container">
+      <!-- Top-Left Content -->
+      <div class="atex-left-content">
+        <h2 class="atex-main-title">
+          No-Man Entry Robotic Solutions - ATEX Zone-0 Certified
+        </h2>
+        <p class="atex-description">
+          Engineered for Zero Life Loss, Unibose’s intrinsically safe systems are designed to replace human presence in confined spaces where explosive atmospheres, toxic gases, and oxygen instability make manual entry a life-threatening risk. By removing personnel from the hazard zone entirely, the system ensures safe, controlled operations
+        </p>
+
+        <a href="#innovations" class="atex-explore-widget" aria-label="Explore robotic solutions">
+          <span class="atex-explore-label">EXPLORE</span>
+          <div class="atex-explore-circle">
+            <svg viewBox="0 0 16 16" fill="none" class="atex-plus-icon" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 2V14M2 8H14" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      <!-- Center-Bottom Robot Arm Vision Head -->
+      <div class="atex-robot-head-wrap" aria-hidden="true">
+        <img
+          src="assets/crm-3.png"
+          alt="ATEX Zone-0 Robotic Inspection & Vision Camera"
+          class="atex-robot-img"
+        />
+      </div>
+
+      <!-- Right Certificate Card & Slider -->
+      <div class="atex-cert-card-wrap">
+        <div class="atex-cert-meta-label">
+          <span class="atex-cert-code" id="atexCertCode">NMER-TI23ATEX-1679-X</span>
+          <span class="atex-cert-caption" id="atexCertCaption">Certified Robotic System for Hazardous Tank Environments</span>
+        </div>
+
+        <div class="atex-cert-card">
+          <!-- Top-left corner bracket -->
+          <div class="atex-corner-bracket top-left">
+            <svg width="12" height="12" viewBox="0 0 12 11" fill="none">
+              <path d="M1 10.5V0.5H11.5" stroke="#676767" stroke-width="0.8" />
+            </svg>
+          </div>
+
+          <!-- Expand button -->
+          <button type="button" class="atex-expand-btn" id="atexExpandBtn" title="Expand Certificate" aria-label="Expand Certificate">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5">
+              <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+
+          <!-- Certificate Preview Image -->
+          <div class="atex-cert-inner-img" id="atexCertTrigger">
+            <img
+              src="assets/cert-1.png"
+              alt="Certified Robotic System for Hazardous Tank Environments"
+              class="atex-cert-doc-image"
+              id="atexCertImg"
+            />
+          </div>
+
+          <!-- Bottom-right corner bracket -->
+          <div class="atex-corner-bracket bottom-right">
+            <svg width="12" height="12" viewBox="0 0 11 11" fill="none">
+              <path d="M10.5 0.5L10.5 10.5L0 10.5" stroke="#676767" stroke-width="0.8" />
+            </svg>
+          </div>
+
+          <!-- Pagination Controls -->
+          <div class="atex-slider-nav">
+            <button type="button" class="atex-nav-arrow" id="atexPrevBtn" aria-label="Previous Certificate">
+              <svg width="8" height="12" viewBox="0 0 8 14" fill="none">
+                <path d="M7 1L1 7L7 13" stroke="#173042" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+            <span class="atex-nav-counter" id="atexCounter">1 / 5</span>
+            <button type="button" class="atex-nav-arrow" id="atexNextBtn" aria-label="Next Certificate">
+              <svg width="8" height="12" viewBox="0 0 8 14" fill="none">
+                <path d="M1 1L7 7L1 13" stroke="#173042" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="atex-lightbox-overlay" id="atexLightbox" style="display: none;">
+      <div class="atex-lightbox-content">
+        <button type="button" class="atex-lightbox-close" id="atexLightboxClose" aria-label="Close Preview">&times;</button>
+        <img src="assets/cert-1.png" alt="Certificate Preview" class="atex-lightbox-img" id="atexLightboxImg" />
+        <div class="atex-lightbox-meta">
+          <h4 id="atexLightboxCode">NMER-TI23ATEX-1679-X</h4>
+          <p id="atexLightboxCaption">Certified Robotic System for Hazardous Tank Environments</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 3D PRODUCT MACHINE VIEWER SECTION ================= -->
+  <section class="product-3d-section" id="product-3d">
+    <div class="product-3d-bg"></div>
+
+    <div class="product-3d-container">
+      <!-- Header -->
+      <div class="product-3d-header">
+        <div class="product-3d-title-group">
+          <h2 class="product-3d-title" id="p3dTitle">MEET ATEX Zone-0 N-MER</h2>
+          <span class="product-3d-subtitle">Interactive 3D Turntable • 360° Continuous Orbit • Pinch / Scroll to Zoom</span>
+        </div>
+
+        <div class="product-3d-switcher">
+          <button type="button" class="product-tab-btn active" data-product="0">ATEX Zone-0 N-MER</button>
+          <button type="button" class="product-tab-btn" data-product="1">Robot MUSHAQ 2.0</button>
+          <button type="button" class="product-tab-btn" data-product="2">Zone-0 Camera</button>
+        </div>
+      </div>
+
+      <!-- 3D Interactive Stage -->
+      <div class="product-3d-stage" id="p3dStage">
+        <div class="product-3d-floor"></div>
+
+        <div class="product-3d-model-rig" id="p3dRig">
+          <div class="product-3d-img-wrap">
+            <img src="assets/nmer-product.png" alt="ATEX Zone-0 N-MER" class="product-3d-main-img" id="p3dMainImg" draggable="false" />
+            <div class="product-3d-sheen" id="p3dSheen"></div>
+
+            <div class="product-3d-reflection">
+              <img src="assets/nmer-product.png" alt="" aria-hidden="true" class="product-3d-reflection-img" id="p3dReflectImg" draggable="false" />
+            </div>
+
+            <!-- Hotspots -->
+            <div class="product-hotspot" style="left: 35%; top: 76%;" data-idx="0" title="High-Pressure Jetting Nozzles">
+              <span class="hotspot-outer-ping"></span>
+              <span class="hotspot-middle-pulse"></span>
+              <span class="hotspot-center-dot"></span>
+            </div>
+            <div class="product-hotspot" style="left: 47%; top: 65%;" data-idx="1" title="Quick Tool Swapping">
+              <span class="hotspot-outer-ping"></span>
+              <span class="hotspot-middle-pulse"></span>
+              <span class="hotspot-center-dot"></span>
+            </div>
+            <div class="product-hotspot" style="left: 46%; top: 42%;" data-idx="2" title="Vision Cameras">
+              <span class="hotspot-outer-ping"></span>
+              <span class="hotspot-middle-pulse"></span>
+              <span class="hotspot-center-dot"></span>
+            </div>
+            <div class="product-hotspot is-active" style="left: 58%; top: 35%;" data-idx="3" title="600 mm Manhole Entry">
+              <span class="hotspot-outer-ping"></span>
+              <span class="hotspot-middle-pulse"></span>
+              <span class="hotspot-center-dot"></span>
+            </div>
+            <div class="product-hotspot" style="left: 49%; top: 77%;" data-idx="4" title="Crawler Tracks">
+              <span class="hotspot-outer-ping"></span>
+              <span class="hotspot-middle-pulse"></span>
+              <span class="hotspot-center-dot"></span>
+            </div>
+            <div class="product-hotspot" style="left: 57%; top: 63%;" data-idx="5" title="Emergency Retrieval">
+              <span class="hotspot-outer-ping"></span>
+              <span class="hotspot-middle-pulse"></span>
+              <span class="hotspot-center-dot"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Popup Card -->
+        <div class="product-feature-popup" id="p3dPopup">
+          <button type="button" class="popup-close-btn" id="p3dPopupClose" aria-label="Close feature popup">&times;</button>
+          <div class="popup-visual-box">
+            <img src="assets/popup-tech.jpg" alt="Feature Preview" class="popup-visual-img" id="p3dPopupImg" />
+            <div class="popup-badge-overlay">
+              <span id="p3dPopupBadge">ZONE 0 IIC CERTIFIED BUILT FOR THE WORLD'S MOST EXPLOSIVE ENVIRONMENTS</span>
+              <button type="button" class="popup-sound-toggle" aria-label="Toggle Sound">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2">
+                  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+                  <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="popup-caption-box">
+            <h4 class="popup-feature-title" id="p3dPopupTitle">Compact 600 mm Manhole Entry with Ramp Deployment</h4>
+            <p class="popup-feature-desc" id="p3dPopupDesc">Streamlined low-profile chassis glides effortlessly into standard 24-inch (600 mm) refinery tank manways via robotic ramp deployment.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom HUD Controls -->
+      <div class="product-3d-hud">
+        <button type="button" class="hud-btn" id="p3dRotateToggle">
+          <span class="hud-indicator-dot active" id="p3dRotateDot"></span>
+          <span id="p3dRotateLabel">360° Rotating</span>
+        </button>
+
+        <div class="hud-zoom-group">
+          <button type="button" class="hud-icon-btn" id="p3dZoomOut" title="Zoom Out" aria-label="Zoom Out">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5">
+              <line x1="5" y1="12" x2="19" y2="12" stroke-linecap="round" />
+            </svg>
+          </button>
+          <span class="hud-zoom-badge" id="p3dZoomBadge">100%</span>
+          <button type="button" class="hud-icon-btn" id="p3dZoomIn" title="Zoom In" aria-label="Zoom In">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5">
+              <line x1="12" y1="5" x2="12" y2="19" stroke-linecap="round" />
+              <line x1="5" y1="12" x2="19" y2="12" stroke-linecap="round" />
+            </svg>
+          </button>
+        </div>
+
+        <button type="button" class="hud-btn" id="p3dResetBtn" title="Reset 3D View">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M3 3v5h5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>Reset View</span>
+        </button>
+
+        <div class="hud-drag-hint">
+          <span>🖱️ Click & Drag to Orbit 360° • Scroll Wheel to Zoom</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= KEY INNOVATIONS (N-MER) ================= -->
+  <section class="innovations-section" id="innovations">
+    <div class="section-container">
+      <!-- Header Row -->
+      <div class="innovations-top-row">
+        <div class="innovations-title-wrap">
+          <h2 class="innovations-main-heading">
+            Key Innovations That <br />Set N-MER Apart
+          </h2>
+        </div>
+
+        <!-- Top-Right Badges -->
+        <div class="innovations-badges-row">
+          <div class="inno-badge-pill">
+            <div class="inno-badge-text">
+              <span>Proven</span>
+              <span>in the field</span>
+            </div>
+            <div class="inno-badge-icon">
+              <img src="assets/icon-proven.svg" alt="Proven in the field" />
+            </div>
+          </div>
+
+          <div class="inno-badge-pill">
+            <div class="inno-badge-text">
+              <span>Protected</span>
+              <span>by 7 patents</span>
+            </div>
+            <div class="inno-badge-icon">
+              <img src="assets/icon-patents.svg" alt="Protected by 7 patents" />
+            </div>
+          </div>
+
+          <div class="inno-badge-pill">
+            <div class="inno-badge-text">
+              <span>Designed to do</span>
+              <span>what others can't.</span>
+            </div>
+            <div class="inno-badge-icon">
+              <img src="assets/icon-designed.svg" alt="Designed to do what others can't" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature Cards Grid -->
+      <div class="innovations-features-grid">
+        <!-- Row 1: Two Large Cards (50% / 50%) -->
+        <div class="inno-feature-card card-half card-onboard-pump">
+          <div class="inno-card-header">
+            <h3 class="inno-feature-title">Onboard Pump Robot</h3>
+            <p class="inno-feature-desc">
+              World’s first ATEX Zone-0 certified Robot with autonomous pumping capability—10–12 m³/hr.
+            </p>
+          </div>
+          <div class="inno-card-visual right-aligned">
+            <img
+              src="assets/onboard-pump-robot.png"
+              alt="Onboard Pump Robot Slurry Intake"
+              class="inno-card-img"
+            />
+          </div>
+        </div>
+
+        <div class="inno-feature-card card-half card-two-line">
+          <div class="inno-card-header">
+            <h3 class="inno-feature-title">
+              Revolutionary Two-Line Hydraulic Architecture
+            </h3>
+            <p class="inno-feature-desc">
+              Eliminates heavy manual handling and hose-entanglement around roof legs—common with competitors’ 10–16 hose setups.
+            </p>
+          </div>
+          <div class="inno-card-visual right-aligned">
+            <img
+              src="assets/two-line-hydraulic-arch.png"
+              alt="Revolutionary Two-Line Hydraulic Architecture"
+              class="inno-card-img"
+            />
+          </div>
+        </div>
+
+        <!-- Row 2: Three Cards (33.3% / 33.3% / 33.3%) -->
+        <div class="inno-feature-card card-third card-vision-system">
+          <div class="inno-card-header">
+            <h3 class="inno-feature-title">ATEX Zone-0 Vision System</h3>
+            <p class="inno-feature-desc">
+              ATEX Zone-0 low-light cameras with certified LED lighting and PAN-TILT deliver 360° tank visibility, giving operators real-time control for smooth robot operation.
+            </p>
+          </div>
+          <div class="inno-card-visual bottom-left-aligned">
+            <img
+              src="assets/atex-vision-system.png"
+              alt="ATEX Zone-0 Vision System Pan-Tilt Rig"
+              class="inno-card-img vision-img"
+            />
+          </div>
+        </div>
+
+        <!-- Card 4 (Center): Visual on Top, Text Centered at Bottom -->
+        <div class="inno-feature-card card-third card-fail-safe">
+          <div class="inno-card-visual top-center-aligned">
+            <img
+              src="assets/fail-safe-mode.png"
+              alt="Exclusive Fail Safe Mode Heavy Duty Caster Wheels"
+              class="inno-card-img fail-safe-img"
+            />
+          </div>
+          <div class="inno-card-footer centered-text">
+            <h3 class="inno-feature-title">Exclusive Fail Safe Mode</h3>
+            <p class="inno-feature-desc">
+              First of its kind Emergency Evacuation System retrieves the robot in minutes and enables immediate relaunch, ensuring truly No Man Entry even during failures.
+            </p>
+          </div>
+        </div>
+
+        <div class="inno-feature-card card-third card-automated-handling">
+          <div class="inno-card-header">
+            <h3 class="inno-feature-title">Advanced Automated Handling</h3>
+            <p class="inno-feature-desc">
+              Effortless hydraulic and vacuum hose winder eliminates manual labor in managing the heavy hoses.
+            </p>
+          </div>
+          <div class="inno-card-visual bottom-center-aligned">
+            <img
+              src="assets/automated-handling-reel.png"
+              alt="Advanced Automated Handling Hose Winder"
+              class="inno-card-img reel-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= METRICS & STATS SECTION ================= -->
+  <section class="metrics-section ref-metrics-layout" id="impact">
+    <div class="metrics-ref-bg-overlay" aria-hidden="true"></div>
+
+    <div class="section-container metrics-ref-container">
+      <!-- Top Header -->
+      <div class="metrics-ref-header">
+        <div class="metrics-ref-green-dash" aria-hidden="true"></div>
+        <h2 class="metrics-ref-title">
+          Proven Operational Scale &amp;
+          <span class="metrics-ref-title-green">Environmental Impact</span>
+        </h2>
+      </div>
+
+      <!-- 4 Cards Grid Matching Reference Image -->
+      <div class="metrics-ref-grid">
+        <!-- Card 1 -->
+        <div class="metrics-ref-card">
+          <div class="metrics-ref-icon-disc">
+            <img src="/assets/metric-icon-1.png" alt="" class="metrics-ref-icon-img" />
+          </div>
+          <div class="metrics-ref-number">1,000,000</div>
+          <div class="metrics-ref-sublabel">KL SLUDGE PROCESSED</div>
+          <h3 class="metrics-ref-heading">1 Million KiloLitres Handled</h3>
+          <p class="metrics-ref-desc">Safely treated across 50+ high-hazard refinery deployments with 100% safety compliance.</p>
+          <div class="metrics-ref-bottom-wrap">
+            <img src="/assets/metric-card-1.png" alt="1 Million KiloLitres Handled" class="metrics-ref-bottom-img" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="metrics-ref-card">
+          <div class="metrics-ref-icon-disc">
+            <img src="/assets/metric-icon-2.png" alt="" class="metrics-ref-icon-img" />
+          </div>
+          <div class="metrics-ref-number">400,000</div>
+          <div class="metrics-ref-sublabel">KL OIL RECOVERED</div>
+          <h3 class="metrics-ref-heading">40% Average Recovery Yield</h3>
+          <p class="metrics-ref-desc">Recovered pipeline-grade crude oil returned directly to refinery battery limits for commercial revenue.</p>
+          <div class="metrics-ref-bottom-wrap">
+            <img src="/assets/metric-card-2.png" alt="40% Average Recovery Yield" class="metrics-ref-bottom-img" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="metrics-ref-card">
+          <div class="metrics-ref-icon-disc">
+            <img src="/assets/metric-icon-3.png" alt="" class="metrics-ref-icon-img" />
+          </div>
+          <div class="metrics-ref-number">90% – 95%</div>
+          <div class="metrics-ref-sublabel">
+            RECOVERY EFFICIENCY
+            <div class="metrics-ref-card-dash" aria-hidden="true"></div>
+          </div>
+          <h3 class="metrics-ref-heading">Hydrocarbon Separation Purity</h3>
+          <p class="metrics-ref-desc">Combined thermal LSPU, patented coils (Patent 592382), and 3-phase centrifugation achieving &lt;1-2% BS&amp;W.</p>
+          <div class="metrics-ref-bottom-wrap">
+            <img src="/assets/metric-card-3.png" alt="Hydrocarbon Separation Purity" class="metrics-ref-bottom-img" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="metrics-ref-card">
+          <div class="metrics-ref-icon-disc">
+            <img src="/assets/metric-icon-4.png" alt="" class="metrics-ref-icon-img" />
+          </div>
+          <div class="metrics-ref-number">0</div>
+          <div class="metrics-ref-sublabel">SAFETY INCIDENTS</div>
+          <h3 class="metrics-ref-heading">100% Zero-Man Entry Record</h3>
+          <p class="metrics-ref-desc">Complete elimination of toxic H2S exposure, explosive atmospheres, and confined space fatalities.</p>
+          <div class="metrics-ref-bottom-wrap">
+            <img src="/assets/metric-card-4.png" alt="100% Zero-Man Entry Record" class="metrics-ref-bottom-img" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= IN-DEPTH FAQ ACCORDION ================= -->
+  <section class="faq-section" id="faq">
+    <div class="section-container faq-split-layout">
+      <!-- Left Column: Heading -->
+      <div class="faq-left-col">
+        <h2 class="faq-split-title">
+          Frequently Asked<br />Questions
+        </h2>
+      </div>
+
+      <!-- Right Column: Accordion List -->
+      <div class="faq-right-col">
+        <div class="faq-accordion-list">
+          <!-- FAQ 1 -->
+          <div class="faq-card-item">
+            <button class="faq-card-trigger" aria-expanded="false">
+              <span class="faq-question-text">What does Unibose Technology do?</span>
+              <span class="faq-chevron-disc">
+                <svg class="faq-chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-card-panel">
+              <p>Unibose Technology designs and manufactures ATEX Zone-0 certified no-man-entry robotic systems for cleaning hazardous confined spaces inside crude oil, fuel oil, chemical, and acid storage tanks. The company eliminates human entry into explosive and toxic environments, reduces operational downtime, and ensures Zero Life Loss during industrial tank maintenance.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-card-item">
+            <button class="faq-card-trigger" aria-expanded="false">
+              <span class="faq-question-text">Why does manual tank cleaning persist in heavy industry despite the high risk of human fatality?</span>
+              <span class="faq-chevron-disc">
+                <svg class="faq-chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-card-panel">
+              <p>Human entry in tanks persists because for decades the industry accepted a dangerous trade-off: compromising human safety to achieve operational cleanliness. Early robotic solutions were too bulky, expensive, or incapable of navigating complex tank geometries. Facility managers often defaulted to manual crews simply due to a lack of awareness that modern No-Man Entry robotics have evolved to safely handle Zone-0 hazardous environments. Unibose bridges this gap via RaaS, removing the risk premium without capital expenditure barriers.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-card-item">
+            <button class="faq-card-trigger" aria-expanded="false">
+              <span class="faq-question-text">How does accumulated sludge in industrial storage tanks impact total facility capacity and revenue?</span>
+              <span class="faq-chevron-disc">
+                <svg class="faq-chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-card-panel">
+              <p>Sludge acts as a capacity and efficiency thief. Accumulated sludge reduces available storage volume, contaminates new batches, and leads to expensive rework. Traditional manual cleaning requires lengthy shutdowns and extensive venting periods that halt production for weeks. Robotic solutions operate with 40% reduced downtime, reclaiming lost capacity and revenue significantly faster.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-card-item">
+            <button class="faq-card-trigger" aria-expanded="false">
+              <span class="faq-question-text">Can the Unibose system extract solidified, dense sludge without introducing additional water?</span>
+              <span class="faq-chevron-disc">
+                <svg class="faq-chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-card-panel">
+              <p>Yes. While many robotic systems act merely as vacuums that clog easily, Unibose systems feature a robust front-mounted auger and sludge cutter mechanism. This system physically breaks down solidified, dense sludge and cake-like deposits that typically require manual chipping. Once broken down, the system pumps the waste out through a high-capacity onboard pump without introducing massive amounts of water that would subsequently require expensive treatment.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-card-item">
+            <button class="faq-card-trigger" aria-expanded="false">
+              <span class="faq-question-text">Why is the ATEX Zone-0 certification essential for the Unibose robot in hazardous environments?</span>
+              <span class="faq-chevron-disc">
+                <svg class="faq-chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-card-panel">
+              <p>ATEX Zone-0 is the most stringent safety certification for equipment used in explosive atmospheres, signifying that the robot is safe to operate where explosive gas, vapor, or mist is present continuously. Many "industrial" robots are only rated for Zone-1 or Zone-2 (intermittent danger). Unibose provides Asia’s first Zone-0 certified robot, ensuring intrinsically safe operations within live tanks containing highly volatile substances without sparking an explosion.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="faq-card-item">
+            <button class="faq-card-trigger" aria-expanded="false">
+              <span class="faq-question-text">How does the Unibose "Robotics-as-a-Service" (RaaS) model overcome barriers to robotic adoption?</span>
+              <span class="faq-chevron-disc">
+                <svg class="faq-chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-card-panel">
+              <p>The primary barrier to adopting advanced robotics is high upfront CapEx. Many facilities hesitate to purchase a specialized robot used only periodically. Unibose resolves this challenge through a RaaS model, where payment is based on the outcome (a clean tank) rather than asset acquisition, treating tank cleaning as an operational expense (OpEx) with immediate ROI.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="faq-card-item">
+            <button class="faq-card-trigger" aria-expanded="false">
+              <span class="faq-question-text">How can existing industrial cleaning companies partner with Unibose through the OEM model?</span>
+              <span class="faq-chevron-disc">
+                <svg class="faq-chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-card-panel">
+              <p>Unibose operates an OEM program supplying certified robotic platforms to established service providers. This allows service partners to upgrade from manual labor crews to tech-enabled robotic squads, elevating their safety ratings and allowing them to bid on high-value tenders requiring mandatory No-Man Entry execution.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 8 -->
+          <div class="faq-card-item">
+            <button class="faq-card-trigger" aria-expanded="false">
+              <span class="faq-question-text">How does Unibose technology solve the "Visibility Gap" inside dark storage tanks?</span>
+              <span class="faq-chevron-disc">
+                <svg class="faq-chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-card-panel">
+              <p>Unibose robots are equipped with ATEX-certified low-light cameras and high-intensity LED systems delivering high-definition, 360° pan-tilt real-time video feeds to external operators. This enables simultaneous cleaning and structural inspection, exposing floor corrosion, pitting, and cracks for predictive maintenance.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 9 -->
+          <div class="faq-card-item">
+            <button class="faq-card-trigger" aria-expanded="false">
+              <span class="faq-question-text">In which industrial sectors can Unibose robots be deployed beyond Oil &amp; Gas?</span>
+              <span class="faq-chevron-disc">
+                <svg class="faq-chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-card-panel">
+              <p>Our systems are industry-agnostic: Chemical Processing (toxic residues), Power Generation (cooling tower basins), Fertilizer &amp; Minerals (phosphoric acid rail wagons), Wastewater Treatment (ETP/STP sludge removal), and Food &amp; Beverage storage vats.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 10 -->
+          <div class="faq-card-item">
+            <button class="faq-card-trigger" aria-expanded="false">
+              <span class="faq-question-text">What is the Unibose long-term vision for the future of industrial safety and automation?</span>
+              <span class="faq-chevron-disc">
+                <svg class="faq-chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-card-panel">
+              <p>To make "Man Entry" into confined spaces a historic obsolescence. We are advancing toward semi-autonomous and fully autonomous AI path-planning and sludge detection, confining human roles to clean, air-conditioned control rooms far away from hazardous zones.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CUSTOMER STORIES (REF IMAGE 1) ================= -->
+  <section class="customer-stories-section" id="stories">
+    <div class="customer-stories-container">
+      <h2 class="customer-stories-title">Customer stories</h2>
+
+      <div class="customer-stories-grid">
+        <!-- Col 1: Summary Brand Card -->
+        <div class="story-col story-col-summary">
+          <div class="summary-brand-card">
+            <div class="summary-top">
+              <div class="summary-brand-logo-wrap">
+                <img src="assets/arham-logo-dark.png" alt="Arham Oil" class="summary-brand-logo-img" />
+              </div>
+              <p class="summary-tagline">Trusted by clients worldwide</p>
+            </div>
+            <div class="summary-bottom">
+              <div class="summary-stat-label">Customer<br />satisfaction rate</div>
+              <div class="summary-footer-row">
+                <div class="summary-client-badges">
+                  <span class="badge-circle" title="IndianOil">
+                    <img src="assets/indian-oil.svg" alt="IndianOil" />
+                  </span>
+                  <span class="badge-circle" title="CPCL">
+                    <img src="assets/cpcl.svg" alt="CPCL" />
+                  </span>
+                  <span class="badge-circle poly-disc" title="Poly-Tech">
+                    <img src="assets/poly-tech.png" alt="Poly-Tech" />
+                  </span>
+                </div>
+                <div class="slider-controls">
+                  <button class="slider-arrow-btn" aria-label="Previous story">&lt;</button>
+                  <button class="slider-arrow-btn" aria-label="Next story">&gt;</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 2: Top narrative, Bottom author -->
+        <div class="story-col">
+          <div class="story-narrative-card">
+            <p>
+              Arham Oil designed, developed, and deployed a custom-engineered robotic system for cleaning Phosphoric Acid carrying rail wagons.
+            </p>
+            <p>
+              This first-of-its-kind application addressed the complex challenge of removing hazardous residue from cylindrical wagon interiors without any human entry. The robot executed the task effectively, delivering thorough cleaning while operating safely over the critical rubber lining without causing damage and eliminating worker exposure to corrosive conditions.
+            </p>
+            <p>
+              The engagement validated Arham Oil's ability to deliver precise, application-specific robotic solutions for demanding industrial cleaning requirements.
+            </p>
+          </div>
+          <div class="story-author-card">
+            <div class="author-avatar-badge">
+              <img src="assets/poly-tech.png" alt="Poly-Tech" />
+            </div>
+            <div class="author-info">
+              <h4>Mr. Rajakumar P</h4>
+              <p class="author-role">Manager – Research &amp; Development</p>
+              <p class="author-company">Poly-Tech Maintenance &amp; Industrial Operation, Saudi Arabia</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 3: Top author, Bottom narrative (Inverted order) -->
+        <div class="story-col">
+          <div class="story-author-card">
+            <div class="author-avatar-badge">
+              <img src="assets/indian-oil.svg" alt="IndianOil" />
+            </div>
+            <div class="author-info">
+              <h4>Mr. K. Suresh Bacon</h4>
+              <p class="author-role">Chief General Manager (Tamil Nadu State Operations Dept)</p>
+              <p class="author-company">Indian oil corporation limited</p>
+            </div>
+          </div>
+          <div class="story-narrative-card">
+            <p>
+              Arham Oil successfully deployed their ATEX Zone-0 Certified robot to clean both High Speed Diesel and Furnace Oil tanks at IOCL terminals, achieving complete cleaning with zero manual entry. This innovative approach significantly reduced water usage and cut tank downtime by more than 90% compared to manual methods.
+            </p>
+            <p>
+              IOCL is enormously satisfied and appreciative of this initiative and look forward to engage with M/s Arham Oil Private Limited to undertake many more cleaning activities.
+            </p>
+          </div>
+        </div>
+
+        <!-- Col 4: Top narrative, Bottom author -->
+        <div class="story-col">
+          <div class="story-narrative-card">
+            <p>
+              During a four-day trial at the Manali Refinery, the No-Man Entry Robot (NMER) was utilized to clean high viscous and greasy Lube oil sludge from an intermediate storage tank. The system proved its capability by effectively removing residual sludge in a hazardous environment without putting human workers at risk.
+            </p>
+            <p>
+              The Robotic system effectively cleaned out about 90KL of sludge and is suitable to work in ZONE-0 hazardous environment without any man entry inside the storage tank.
+            </p>
+          </div>
+          <div class="story-author-card">
+            <div class="author-avatar-badge">
+              <img src="assets/cpcl.svg" alt="CPCL" />
+            </div>
+            <div class="author-info">
+              <h4>Mr. S.P. Velavan</h4>
+              <p class="author-role">Deputy General Manager (TS - Inspection)</p>
+              <p class="author-company">CPCL manali refinery</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= FOUNDER STATEMENT QUOTE (REF IMAGE 3) ================= -->
+  <section class="founder-quote-section">
+    <div class="founder-quote-container">
+      <div class="founder-quote-icon">
+        <svg width="46" height="42" viewBox="0 0 46 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 24.5V42H17.5V24.5H8.75C8.75 14.875 14 9.625 21 7L16.625 0C6.125 4.375 0 12.25 0 24.5ZM24.5 24.5V42H42V24.5H33.25C33.25 14.875 38.5 9.625 45.5 7L41.125 0C30.625 4.375 24.5 12.25 24.5 24.5Z" fill="#7cad3e" />
+        </svg>
+      </div>
+
+      <blockquote class="founder-quote-text">
+        A Robot cannot replace humans, but it should, and it must replace, hundreds and thousands of fellow human beings entering confined spaces daily for their livelihood.
+      </blockquote>
+
+      <div class="founder-vertical-divider"></div>
+
+      <h3 class="founder-author-name">Manikandan Dakshinamoorthy</h3>
+      <p class="founder-author-role">Founder &amp; CEO at Arham Oil</p>
+    </div>
+  </section>
+
+
+  <!-- ================= BROCHURE LEAD CAPTURE & CONTACT (REF DESIGN) ================= -->
+  <section class="contact-section ref-contact-layout" id="contact">
+    <!-- Decorative bottom-left faceted graphic -->
+    <div class="contact-corner-graphic" aria-hidden="true">
+      <svg viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 180L0 70L80 180Z" fill="url(#idxFacetGrad1)" opacity="0.65" />
+        <path d="M0 70L90 140L0 180Z" fill="url(#idxFacetGrad2)" opacity="0.5" />
+        <path d="M80 180L90 140L180 180Z" fill="url(#idxFacetGrad3)" opacity="0.4" />
+        <defs>
+          <linearGradient id="idxFacetGrad1" x1="0" y1="70" x2="80" y2="180" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#3ca82b" stop-opacity="0.4" />
+            <stop offset="1" stop-color="#a7d89b" stop-opacity="0.1" />
+          </linearGradient>
+          <linearGradient id="idxFacetGrad2" x1="0" y1="70" x2="90" y2="140" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#ffffff" stop-opacity="0.7" />
+            <stop offset="1" stop-color="#d5e8d4" stop-opacity="0.2" />
+          </linearGradient>
+          <linearGradient id="idxFacetGrad3" x1="80" y1="140" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#2e7d32" stop-opacity="0.3" />
+            <stop offset="1" stop-color="#ffffff" stop-opacity="0.05" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+
+    <div class="contact-bg-overlay" aria-hidden="true"></div>
+
+    <div class="section-container contact-inner-container">
+      <div class="contact-split-grid">
+        <!-- Left Column: Contact Info -->
+        <div class="contact-info-panel">
+          <div class="contact-badge-overline">
+            <span class="contact-dash-accent"></span>
+            <span class="tag-overline">GET IN TOUCH</span>
+          </div>
+
+          <h2 class="contact-main-heading">
+            Ready to Eliminate<br />
+            <span class="heading-green-line">
+              Confined Space Entry?
+              <svg class="swoosh-underline" viewBox="0 0 240 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M4 14C65 4 175 3 236 12" stroke="#2e7d32" stroke-width="4" stroke-linecap="round" />
+              </svg>
+            </span>
+          </h2>
+
+          <p class="contact-lead-text">
+            Reach out for a live demonstration, detailed engineering brochure, or consult with our robotic process engineers.
+          </p>
+
+          <div class="contact-cards-list">
+            <!-- Corporate Office -->
+            <div class="contact-card-row">
+              <div class="contact-icon-disc">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
+                  <path d="M9 22v-4h6v4"></path>
+                  <line x1="8" y1="6" x2="8.01" y2="6"></line>
+                  <line x1="16" y1="6" x2="16.01" y2="6"></line>
+                  <line x1="8" y1="10" x2="8.01" y2="10"></line>
+                  <line x1="16" y1="10" x2="16.01" y2="10"></line>
+                  <line x1="8" y1="14" x2="8.01" y2="14"></line>
+                  <line x1="16" y1="14" x2="16.01" y2="14"></line>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="c-meta-title">CORPORATE OFFICE</span>
+                <p>806, North Plaza, Visat Gandhinagar Highway, Motera, Ahmedabad, Gujarat - 380005, India</p>
+              </div>
+            </div>
+
+            <!-- Registered Office -->
+            <div class="contact-card-row">
+              <div class="contact-icon-disc">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="c-meta-title">REGISTERED OFFICE</span>
+                <p>A-403, Arham Regency, Sabarmati, Ahmedabad, Gujarat - 380005, India</p>
+              </div>
+            </div>
+
+            <!-- Direct Phone Lines -->
+            <div class="contact-card-row">
+              <div class="contact-icon-disc">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="c-meta-title">DIRECT PHONE LINES</span>
+                <p class="c-phone-row">
+                  <a href="tel:+917486042709">+91 74860 42709</a>
+                  <span class="c-pipe">|</span>
+                  <a href="tel:+917486042707">+91 74860 42707</a>
+                </p>
+              </div>
+            </div>
+
+            <!-- Department Directory -->
+            <div class="contact-card-row">
+              <div class="contact-icon-disc">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="c-meta-title">DEPARTMENT DIRECTORY</span>
+                <div class="c-dept-list">
+                  <p><strong>Business:</strong> <a href="mailto:aogpspl@arhamoil.com">aogpspl@arhamoil.com</a></p>
+                  <p><strong>Procurement:</strong> <a href="mailto:admin@arhamoil.com">admin@arhamoil.com</a></p>
+                  <p><strong>Careers:</strong> <a href="mailto:hr@arhamoil.com">hr@arhamoil.com</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Floating Form Card -->
+        <div class="contact-form-col">
+          <div class="contact-card-container">
+            <span class="card-top-accent"></span>
+            <h3 class="contact-card-title">Request Technical Brochure &amp; Demo</h3>
+
+            <form class="brochure-form" id="leadForm">
+              <!-- Full Name -->
+              <div class="form-group-field">
+                <label for="fullName">Full Name</label>
+                <div class="input-with-icon">
+                  <svg class="field-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#8ca0b3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                  <input type="text" id="fullName" name="fullName" placeholder="e.g. John Doe" required />
+                </div>
+              </div>
+
+              <!-- Work Email -->
+              <div class="form-group-field">
+                <label for="workEmail">Work Email</label>
+                <div class="input-with-icon">
+                  <svg class="field-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#8ca0b3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                  <input type="email" id="workEmail" name="workEmail" placeholder="e.g. j.doe@refinery.com" required />
+                </div>
+              </div>
+
+              <!-- Company / Organization -->
+              <div class="form-group-field">
+                <label for="companyName">Company / Organization</label>
+                <div class="input-with-icon">
+                  <svg class="field-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#8ca0b3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+                    <path d="M9 22v-4h6v4"></path>
+                    <line x1="8" y1="6" x2="8.01" y2="6"></line>
+                    <line x1="16" y1="6" x2="16.01" y2="6"></line>
+                    <line x1="8" y1="10" x2="8.01" y2="10"></line>
+                    <line x1="16" y1="10" x2="16.01" y2="10"></line>
+                    <line x1="8" y1="14" x2="8.01" y2="14"></line>
+                    <line x1="16" y1="14" x2="16.01" y2="14"></line>
+                  </svg>
+                  <input type="text" id="companyName" name="companyName" placeholder="e.g. IOCL, OIL, BPCL, HPCL" required />
+                </div>
+              </div>
+
+              <!-- Application / Service Required -->
+              <div class="form-group-field">
+                <label for="tankType">Application / Service Required</label>
+                <div class="input-with-icon select-wrap">
+                  <svg class="field-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#8ca0b3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                  </svg>
+                  <select id="tankType" name="tankType">
+                    <option value="crude">Crude Storage Tank (Robot MUSHAQ 2.0)</option>
+                    <option value="lagoon">Refinery ETP Lagoon / Effluent Basin (GAJANAN 1.0)</option>
+                    <option value="recovery">Sludge Oil Recovery &amp; Reprocessing (Patent 592382)</option>
+                    <option value="online">Online Mechanical Desludging (In-Service)</option>
+                    <option value="cooling">Cooling Tower Basin / OWS Pit Cleaning</option>
+                    <option value="horizontal">Horizontal Bullet / Chemical Tank Wagon</option>
+                    <option value="roboverse">Robo-Verse™ Turnkey Refinery Services</option>
+                  </select>
+                  <svg class="select-chevron" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#173042" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </div>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn-ref-submit">
+                <span class="btn-submit-text">Send Technical Brochure &amp; Inquiry</span>
+                <span class="btn-arrow-disc">
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#0d1e2b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </span>
+              </button>
+
+              <!-- NDA & Privacy Standards -->
+              <div class="form-ref-disclaimer">
+                <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <span>By submitting, you agree to Arham Oil's engineering NDA and privacy standards.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMPREHENSIVE SITE FOOTER (REF IMAGE 2) ================= -->
+  <footer class="ref-footer-section">
+    <div class="ref-footer-container">
+      <div class="ref-footer-card">
+        <div class="ref-footer-grid">
+          <!-- Col 1: Office -->
+          <div class="footer-block">
+            <h4 class="footer-block-title">Office</h4>
+            <p class="footer-address">
+              No.33, SIDCO Industrial Estate, CMDA<br />
+              Phase – 2, Maraimalai Nagar,<br />
+              Chengalpattu, Tamil Nadu 603209
+            </p>
+            <div class="footer-meta-block">
+              <p class="footer-cert-note">
+                An ISO 9001:2015, 14001:2015, 45001:2018<br />
+                certified company
+              </p>
+              <p class="footer-copyright-note">
+                &copy; 2026 ARHAM OIL. All rights reserved. Site by Dezvolta
+              </p>
+            </div>
+          </div>
+
+          <!-- Col 2: Contact -->
+          <div class="footer-block">
+            <h4 class="footer-block-title">Contact</h4>
+            <p class="footer-phone">+91 98197 41402</p>
+            <p class="footer-phone">+91 96770 99223</p>
+            <p class="footer-email">contact@arhamoil.com</p>
+          </div>
+
+          <!-- Col 3: Quick link & Brochure -->
+          <div class="footer-block">
+            <h4 class="footer-block-title">Quick link</h4>
+            <ul class="footer-quick-links">
+              <li><a href="#about">Our Story</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#raas">RaaS</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn-brochure-download">
+              <span class="brochure-icon">&darr;</span>
+              <span>ARHAM OIL BROCHURE</span>
+            </a>
+          </div>
+
+          <!-- Col 4: Socials & Large Logo -->
+          <div class="footer-block footer-brand-col">
+            <div class="footer-social-row">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn">
+                <img src="assets/linkedin-badge.png" alt="LinkedIn" />
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="YouTube">
+                <img src="assets/youtube-badge.png" alt="YouTube" />
+              </a>
+            </div>
+            <div class="footer-big-brand-logo">
+              <img src="assets/arham-logo.png" alt="Arham Oil" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ================= VIDEO MODAL POPUP ================= -->
+  <div class="video-modal-backdrop" id="videoModal">
+    <div class="video-modal-card">
+      <button class="modal-close-btn" id="modalCloseBtn">&times;</button>
+      <div class="video-container-placeholder">
+        <div class="video-inner-sim">
+          <img src="assets/banner.webp" alt="N-MER in Action" class="video-preview-img" />
+          <div class="video-status-overlay">
+            <span class="status-live-dot"></span> LIVE ATEX ZONE-0 ROBOTIC TANK DEPLOYMENT
+            <h3>N-MER Autonomous 12 m³/hr Sludge Extraction Cycle</h3>
+            <p>Recorded at IOCL Terminal & CPCL Manali Refinery Zone-0 Crude Storage Tank</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
