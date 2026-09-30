@@ -15,8 +15,8 @@
   --color-border-subtle: #afcae2;
   --color-border-light: rgba(23, 48, 66, 0.15);
 
-  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: 'Helvetica Neue', Helvetica, 'Arimo', Arial, sans-serif;
+  --font-body: 'Helvetica Neue', Helvetica, 'Arimo', Arial, sans-serif;
 
   --radius-sm: 0.5rem;
   --radius-md: 0.75rem;
@@ -492,17 +492,6 @@ button {
   overflow: hidden;
 }
 
-.hero-section::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 90px;
-  background: linear-gradient(to bottom, transparent 0%, rgba(7, 21, 35, 0.4) 40%, #f7fafc 100%);
-  pointer-events: none;
-  z-index: 5;
-}
 
 .hero-bg-wrapper {
   position: absolute;
@@ -2999,8 +2988,8 @@ button {
 
 /* ================= CUSTOMER STORIES (REF IMAGE 1) ================= */
 .customer-stories-section {
-  padding: 5.5rem 0 6rem;
-  background: linear-gradient(180deg, #f8fafc 0%, #fbfcfd 15%, #fbfcfd 85%, #e9eef4 100%);
+  padding: 5.5rem 0 5.5rem;
+  background: #f8fafc;
   color: #1a2332;
   font-family: var(--font-body, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
   position: relative;
@@ -3013,7 +3002,7 @@ button {
 }
 
 .customer-stories-title {
-  font-family: var(--font-heading, "Inter", sans-serif);
+  font-family: var(--font-heading, "Helvetica Neue", Helvetica, Arial, sans-serif);
   font-size: 2.25rem;
   font-weight: 500;
   color: #173042;
@@ -3259,17 +3248,6 @@ button {
   overflow: hidden;
 }
 
-.founder-quote-section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 110px;
-  background: linear-gradient(180deg, #e9eef4 0%, #0d1e2c 50%, #03070d 100%);
-  pointer-events: none;
-  z-index: 2;
-}
 
 .founder-quote-container {
   max-width: 920px;
@@ -3287,7 +3265,7 @@ button {
 }
 
 .founder-quote-text {
-  font-family: var(--font-heading, "Inter", sans-serif);
+  font-family: var(--font-heading, "Helvetica Neue", Helvetica, Arial, sans-serif);
   font-size: clamp(1.35rem, 2.3vw, 2.05rem);
   font-weight: 400;
   line-height: 1.5;
@@ -3336,17 +3314,6 @@ button {
   overflow: hidden;
 }
 
-.contact-section.ref-contact-layout::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 90px;
-  background: linear-gradient(180deg, #03070d 0%, rgba(13, 34, 50, 0.4) 45%, transparent 100%);
-  pointer-events: none;
-  z-index: 3;
-}
 
 .contact-bg-overlay {
   position: absolute;

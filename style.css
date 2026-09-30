@@ -17,8 +17,8 @@
   --color-border-subtle: #afcae2;
   --color-border-light: rgba(23, 48, 66, 0.15);
   
-  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: 'Helvetica Neue', Helvetica, 'Arimo', Arial, sans-serif;
+  --font-body: 'Helvetica Neue', Helvetica, 'Arimo', Arial, sans-serif;
   
   --radius-sm: 0.5rem;
   --radius-md: 0.75rem;
@@ -140,48 +140,104 @@ button {
   align-items: center;
 }
 
-.unibose-svg-logo {
-  width: 9.5rem;
-  height: auto;
+.arham-header-logo {
+  height: 2.5rem;
+  max-height: 44px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+
+.arham-header-logo:hover {
+  transform: scale(1.03);
+  opacity: 0.95;
+}
+
+/* Center Navigation Links */
+.header-nav-center {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .header-nav-center {
+    display: none;
+  }
+}
+
+.nav-center-link {
+  position: relative;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: var(--font-heading);
+  font-size: 0.88rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  transition: color var(--transition-fast);
+  padding: 0.35rem 0;
+}
+
+.nav-center-link:hover {
+  color: #ffffff;
+}
+
+.nav-center-link.active {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.nav-center-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background-color: #ffffff;
+  border-radius: 1px;
 }
 
 .header-right-actions {
   display: flex;
   align-items: center;
-  gap: 2.5rem;
+  gap: 1.75rem;
 }
 
-.btn-get-in-touch {
-  position: relative;
+/* Pill Outline Button: GET IN TOUCH → */
+.btn-get-in-touch-pill {
   display: inline-flex;
   align-items: center;
-  padding: 0.5rem 1.25rem;
-  color: var(--color-white);
+  gap: 0.75rem;
+  padding: 0.52rem 1.45rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  border-radius: var(--radius-pill);
+  color: #ffffff;
   font-family: var(--font-heading);
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 0.78rem;
+  font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-  overflow: hidden;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: all var(--transition-fast);
 }
 
-.btn-touch-bg {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.05));
-  transform: scaleY(0);
-  transform-origin: bottom;
-  transition: transform var(--transition-normal);
+.pill-arrow-icon {
+  font-size: 0.92rem;
+  transition: transform var(--transition-fast);
 }
 
-.btn-get-in-touch:hover .btn-touch-bg {
-  transform: scaleY(1);
+.btn-get-in-touch-pill:hover {
+  background-color: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.75);
+  transform: translateY(-1px);
 }
 
-.btn-touch-text {
-  position: relative;
-  z-index: 2;
+.btn-get-in-touch-pill:hover .pill-arrow-icon {
+  transform: translateX(3px);
 }
 
 .menu-grid-trigger {
@@ -406,17 +462,6 @@ button {
   overflow: hidden;
 }
 
-.hero-section::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 90px;
-  background: linear-gradient(to bottom, transparent 0%, rgba(7, 21, 35, 0.4) 40%, #f7fafc 100%);
-  pointer-events: none;
-  z-index: 5;
-}
 
 .hero-bg-wrapper {
   position: absolute;
@@ -2804,8 +2849,8 @@ button {
    CUSTOMER STORIES (REF IMAGE 1)
    ========================================================================== */
 .customer-stories-section {
-  padding: 5.5rem 0 6rem;
-  background: linear-gradient(180deg, #f8fafc 0%, #fbfcfd 15%, #fbfcfd 85%, #e9eef4 100%);
+  padding: 5.5rem 0 5.5rem;
+  background: #f8fafc;
   color: #1a2332;
   font-family: var(--font-body, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
   position: relative;
@@ -2818,7 +2863,7 @@ button {
 }
 
 .customer-stories-title {
-  font-family: var(--font-heading, "Inter", sans-serif);
+  font-family: var(--font-heading, "Helvetica Neue", Helvetica, Arial, sans-serif);
   font-size: 2.25rem;
   font-weight: 500;
   color: #173042;
@@ -3066,17 +3111,6 @@ button {
   overflow: hidden;
 }
 
-.founder-quote-section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 110px;
-  background: linear-gradient(180deg, #e9eef4 0%, #0d1e2c 50%, #03070d 100%);
-  pointer-events: none;
-  z-index: 2;
-}
 
 .founder-quote-container {
   max-width: 920px;
@@ -3094,7 +3128,7 @@ button {
 }
 
 .founder-quote-text {
-  font-family: var(--font-heading, "Inter", sans-serif);
+  font-family: var(--font-heading, "Helvetica Neue", Helvetica, Arial, sans-serif);
   font-size: clamp(1.35rem, 2.3vw, 2.05rem);
   font-weight: 400;
   line-height: 1.5;
@@ -3145,17 +3179,6 @@ button {
   overflow: hidden;
 }
 
-.contact-section.ref-contact-layout::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 90px;
-  background: linear-gradient(180deg, #03070d 0%, rgba(13, 34, 50, 0.45) 50%, transparent 100%);
-  pointer-events: none;
-  z-index: 3;
-}
 
 .contact-bg-overlay {
   position: absolute;

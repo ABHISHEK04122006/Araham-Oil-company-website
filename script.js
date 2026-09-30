@@ -474,7 +474,6 @@ document.addEventListener('DOMContentLoaded', () => {
     '.product-3d-hud',
     '.inno-feature-card',
     '.inno-badge-pill',
-    '.metrics-ref-card',
     '.faq-card-item',
     '.summary-brand-card',
     '.story-narrative-card',

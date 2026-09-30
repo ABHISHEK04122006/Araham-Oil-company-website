@@ -9,7 +9,6 @@ import Geometries from './components/Geometries';
 import Certifications from './components/Certifications';
 import Product3DViewer from './components/Product3DViewer';
 import Innovations from './components/Innovations';
-import MetricsGrid from './components/MetricsGrid';
 import FaqAccordion from './components/FaqAccordion';
 import Testimonials from './components/Testimonials';
 import FounderQuote from './components/FounderQuote';
@@ -58,7 +57,6 @@ export default function App() {
       '.product-3d-hud',
       '.inno-feature-card',
       '.inno-badge-pill',
-      '.metrics-ref-card',
       '.faq-card-item',
       '.summary-brand-card',
       '.story-narrative-card',
@@ -114,9 +112,6 @@ export default function App() {
 
       {/* Key Innovations That Set N-MER Apart */}
       <Innovations />
-
-      {/* Rare Globally Metrics Grid */}
-      <MetricsGrid />
 
       {/* In-Depth FAQ Accordion */}
       <FaqAccordion />

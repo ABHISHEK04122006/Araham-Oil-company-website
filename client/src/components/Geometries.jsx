@@ -55,7 +55,7 @@ export default function Geometries() {
               <div className="award-laurel-disc">
                 <svg className="award-wreath-icon" viewBox="0 0 38 38" fill="none">
                   <circle cx="19" cy="19" r="16.5" stroke="currentColor" strokeWidth="2" strokeDasharray="3 1.5" />
-                  <text x="19" y="23" textAnchor="middle" fontSize="13" fontWeight="800" fill="currentColor" fontFamily="Outfit, sans-serif">1ˢᵗ</text>
+                  <text x="19" y="23" textAnchor="middle" fontSize="13" fontWeight="800" fill="currentColor" fontFamily="'Helvetica Neue', Helvetica, 'Arimo', Arial, sans-serif">1ˢᵗ</text>
                 </svg>
               </div>
               <span className="geo-award-text">ASIA'S 1<sup>ST</sup> ATEX ZONE-0 CERTIFIED ROBOT</span>
